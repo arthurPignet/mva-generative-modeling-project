@@ -1,0 +1,6 @@
+jax
+matplotlib
+numpy
+optax
+tree
+tensorflow
