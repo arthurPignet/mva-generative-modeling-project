@@ -466,8 +466,8 @@ def train_and_evaluate(config,
           with tf.io.gfile.GFile(loss_components_path, 'wb') as fp:
             pickle.dump(kl_history[-1], fp)
 
-        test_rng = extensive_eval(config, test_rng, writer, output_path, model,
-                                  state, kl_history, test_ds, epoch)
+        #test_rng = extensive_eval(config, test_rng, writer, output_path, model,
+        #                          state, kl_history, test_ds, epoch)
 
       # Save to checkpoint.
       if is_first_host and epoch % config.save_every == 0:

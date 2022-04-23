@@ -41,10 +41,10 @@ def get_config():
   config.clip_grad = 100.
   config.batch_size = 128
   config.test_batch_size = 200  # Divisible by 8 (TPU pods), divides test 10000
-  config.num_epochs = 60
+  config.num_epochs = 1000
   config.dataset = 'binarized_mnist'# 'cifar10'
   config.data_augmentation = False
-  config.detailed_eval_every = 1
+  config.detailed_eval_every = 1000
   config.num_eval_passes = 4
   config.seed = 0
   config.num_samples = 16
