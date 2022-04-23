@@ -35,6 +35,7 @@ def create_datasets(config, data_rng):
   per_device_batch_size = config.batch_size // jax.device_count()
 
   dataset_builder = tfds.builder(config.dataset)
+  dataset_builder.download_and_prepare()
 
   def cast_int32(batch):
     img = tf.cast(batch['image'], tf.int32)
