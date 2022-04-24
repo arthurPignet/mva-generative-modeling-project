@@ -17,7 +17,7 @@ Project Organization
     │   LICENSE
     │   README.md           <- The top-level README.
     │   requirements.txt    <- List of third parts libraries used in this project.
-    |   
+    |   ARDM.ipynb          <- Notebook used in Colab to run our experiments. 
     │
     ├───autoregressive_diffusion <- [Original paper code](https://github.com/google-research/google-research), with few modifications. 
     │   ├───experiments
@@ -65,4 +65,7 @@ This installation was tested in Google Colab on GPU instances (free version).
 
 Result example
 ---------------
+Images generated after 105 epochs of training on binarized MNIST. 
+
+![](https://github.com/arthurPignet/mva-generative-modeling-project/blob/7d991b06999c6ab58fa88cdba7e32bd918d669d4/results/bin_mnist_2/samples/sample_105_epochs.png)
 
