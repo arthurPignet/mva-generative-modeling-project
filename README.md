@@ -5,7 +5,7 @@ MVA Generative Modeling projet
 
 This repository holds the code for our project on the paper [Autoregresive diffusion models](). The aim of the project was to understand, reimplement if necessary to perfomr an experiment in low dimensionnal setting, and discuss the paper.  
 The provided notebook aims to reproduce our experiment on the binarized MNIST dataset. 
-We used the code released with the paper for the training part. However, we modified the code in order to have it working, especially for the dataset management, and the sampling, which was not working. 
+We used the code released with the paper for the training part. However, we modified the code in order to have it working, especially for the dataset management, and the sampling which was broken. We recommend to use the notebook in Google Colab. <a href="https://colab.research.google.com/github/arthurPignet/mva-generative-modeling-project/blob/main/ARDM.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
 We also of course changed the config file. Unfortunatly, we were not able to run the training for a long time, as we only have access to the free version of colab. Moreover our colabs were also extensively used in other courses, for practicals, and other projects. We thus trained the model as much as possible before being cut by Colab from GPU access. Moreover we were sometimes disconnected, or ran out of memory. All of this to explain that if you want to re-do our experiment from scratch, you might need to re-lauch the training several times, as we did. We advice to re-load the model last checkpoint. 
 
@@ -61,7 +61,7 @@ pip install clu
 
 Tested configuration
 ---------------
-This installation was tested in Google Colab on GPU instances (free version).
+This installation was tested in Google Colab on GPU instances (free version). <a href="https://colab.research.google.com/github/arthurPignet/mva-generative-modeling-project/blob/main/ARDM.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
 Result example
 ---------------
